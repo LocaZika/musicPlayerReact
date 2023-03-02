@@ -19,8 +19,8 @@ export class MusicPlayer extends Component {
     }
   }
   getSongs = async () => {
-    get('songs').then(songs => {
-      this.setState({songs});
+    await get('songs').then(songs => {
+      this.setState({songs, currentSong: songs[0]});
     });
   }
   componentDidMount() {
