@@ -4,7 +4,7 @@
   @include flex(center, center);
   flex-direction: column;
   gap: 2rem;
-  height: 70%;
+  height: auto;
   align-self: center;
   &__thumb{
     background-color: #fff;
@@ -12,6 +12,7 @@
     width: 30rem;
     height: 30rem;
     border-radius: 50%;
+    margin: 2rem 0;
     img{
       width: 30rem;
       height: 30rem;
@@ -62,7 +63,7 @@
           transition: box-shadow 0.2s linear;
         }
         &:active::-webkit-slider-thumb{
-          box-shadow: -330px 0 0 320px #1597ff;
+          box-shadow: -330px 0 0 320px #11e4cf;
           transition: box-shadow 0.2s linear;
         }
       }

@@ -6,7 +6,7 @@
   li{
     padding: 1rem 1.5rem;
     cursor: pointer;
-    transition: transform .5s linear;
+    transition: transform .3s linear;
     border-radius: 1rem;
     .song-img{
       @extend %d-inline;
@@ -26,7 +26,7 @@
     &:hover{
      transform: translate(-1%, -5%);
      background-color: rgba($color: #55c58e, $alpha: .5);
-     transition: transform .5s linear;
+     transition: transform .3s linear;
     }
   }
 }
