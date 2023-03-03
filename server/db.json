@@ -4,21 +4,21 @@
       "id": 1,
       "name": "My stupid heart",
       "singer": "Walk Off The Earth",
-      "src": "https://vnno-vn-5-tf-mp3-320s1-zmp3.zmdcdn.me/a6bcf974a6344f6a1625/6206380990602338755?authen=exp=1677767870~acl=/a6bcf974a6344f6a1625/*~hmac=dcfa95714cda0d4ea9585fc172a9b85f&fs=MTY3NzU5NTA3MDQ4Nnx3ZWJWNnwwfDExMi4xOTmUsICdUngMTE5LjE5Mg",
+      "src": "./assets/songs/mystupidheart.mp3",
       "img": "https://photo-resize-zmp3.zmdcdn.me/w600_r1x1_webp/cover/8/9/c/d/89cd3f98c3734d2c1c7ebc8913d16c70.jpg"
     },
     {
       "id": 2,
       "name": "Колыбельная (Lulbaby)",
       "singer": "Rauf & Faik",
-      "src": "https://vnno-vn-5-tf-mp3-320s1-zmp3.zmdcdn.me/cc86cf93d8d4318a68c5/6113073332191280853?authen=exp=1677770702~acl=/cc86cf93d8d4318a68c5/*~hmac=d33acaeb94554ffc08825c50c4ccebf9&fs=MTY3NzU5NzkwMjI1MXx3ZWJWNnwwfDExMy4yMi4xOTUdUngOA",
+      "src": "./assets/songs/lulbaby.mp3",
       "img": "https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_webp/cover/a/e/a/f/aeaf0ea7983a9582abac187a7ea7f09e.jpg"
     },
     {
       "id": 3,
       "name": "I'm a loner",
       "singer": "CN Blue",
-      "src": "https://vnno-pt-2-tf-mp3-320s1-zmp3.zmdcdn.me/ba8bf4e14da5a4fbfdb4/4707911824831218444?authen=exp=1677769995~acl=/ba8bf4e14da5a4fbfdb4/*~hmac=c1700832a0491fe5d67773bb785ae14a&fs=MTY3NzU5NzE5NTY4MHx3ZWJWNnwxMDIyMTUxOTQ3fDExNi45OS4zLjY4",
+      "src": "./assets/songs/imaloner.mp3",
       "img": "https://photo-resize-zmp3.zmdcdn.me/w600_r1x1_webp/covers/4/b/4b1c59c7728e2b1cb65f6cb20aaf5cf9_1286007342.jpg"
     },
     
@@ -26,50 +26,49 @@
       "id": 4,
       "name": "Me and my broken heart",
       "singer": "Rixton",
-      "src": "https://vnno-vn-5-tf-mp3-320s1-zmp3.zmdcdn.me/f9b22c438c05655b3c14/8431949096469394135?authen=exp=1677770939~acl=/f9b22c438c05655b3c14/*~hmac=da91f5b012bf696c0c910e1a376434b5&fs=MTY3NzU5ODEzOTMxNHx3ZWJWNnwxMDIyMTUxOTQ3fDExNi45OS4zLjY4",
+      "src": "./assets/songs/meandmybrokenheart.mp3",
       "img": "https://photo-resize-zmp3.zmdcdn.me/w600_r1x1_webp/cover/6/5/f/a/65fa9cdb6967c6a6586ebb5477aed1c7.jpg"
     },
     {
       "id": 5,
       "name": "Pretty girl",
       "singer": "Maggie Lindemann",
-      "src": "https://vnno-zn-5-tf-mp3-s1-zmp3.zmdcdn.me/4a7adc003c44d51a8c55/834068847569522350?authen=exp=1677771217~acl=/4a7adc003c44d51a8c55/*~hmac=d1401716f9d7e7ff233d3e1bf89831b9&fs=MTY3NzU5ODQxNzU0OXx3ZWJWNnwxMDIyMTUxOTQ3fDExNi45OS4zLjY4",
+      "src": "./assets/songs/prettygirl.mp3",
       "img": "https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_webp/cover/6/6/6/6/66661fc656d74d49c688235cfb690cec.jpg"
     },
     {
       "id": 6,
       "name": "Trót trao duyên",
       "singer": "NB3 Hoài Bảo",
-      "src": "https://vnno-zn-5-tf-mp3-320s1-zmp3.zmdcdn.me/2c4d5ff42fb4c6ea9fa5/823151729329173259?authen=exp=1677767884~acl=/2c4d5ff42fb4c6ea9fa5/*~hmac=1c20940823d50eee596a6ef8e69a6d42&fs=MTY3NzU5NTA4NDQ4NXx3ZWJWNnwxMDIyMTUxOTQ3fDExNi45OS4zLjY4",
-      
+      "src": "./assets/songs/trottraoduyen.mp3",
       "img": "https://photo-resize-zmp3.zmdcdn.me/w600_r1x1_webp/cover/6/3/e/4/63e4c54d6c395d95352d256876fccab5.jpg"
     },
     {
       "id": 7,
       "name": "Con tim không đổi thay",
       "singer": "Dee Trần",
-      "src": "https://vnno-vn-5-tf-mp3-320s1-zmp3.zmdcdn.me/45f350d64b96a2c8fb87/3754878633100653762?authen=exp=1677767482~acl=/45f350d64b96a2c8fb87/*~hmac=09486f10778751b5b3e9b72b73c7d2cb&fs=MTY3NzU5NDY4MjM0N3x3ZWJWNnwwfDEzNi4yMjgdUngMTUwLjIwMQ",
+      "src": "./assets/songs/contimkhongdoithay.mp3",
       "img": "https://photo-resize-zmp3.zmdcdn.me/w600_r1x1_webp/cover/1/9/7/1/1971ce77b6ece212760349d84678470f.jpg"
     },
     {
       "id": 8,
       "name": "Mood",
       "singer": "24k Golden",
-      "src": "https://vnno-pt-2-tf-mp3-320s1-zmp3.zmdcdn.me/d1703be9eaae03f05abf/7551304451673558048?authen=exp=1677768178~acl=/d1703be9eaae03f05abf/*~hmac=ae9a24489b3b7204f02fd515d59415f0&fs=MTY3NzU5NTM3ODMxMXx3ZWJWNnwxMDIyMTUxOTQ3fDExNi45OS4zLjY4",
+      "src": "./assets/songs/mood.mp3",
       "img": "https://photo-resize-zmp3.zmdcdn.me/w600_r1x1_webp/cover/5/5/9/c/559c962b06a6f73c9aa0caf4dbeb8cd2.jpg"
     },
     {
       "id": 9,
       "name": "Cứu vãn kịp không",
       "singer": "Vương Anh Tú",
-      "src": "https://vnno-zn-5-tf-mp3-320s1-zmp3.zmdcdn.me/deb58eccbd8c54d20d9d/4583204700027264497?authen=exp=1677766054~acl=/deb58eccbd8c54d20d9d/*~hmac=d82ed4745401a1ce80901e3d563e30dd&fs=MTY3NzU5MzI1NDg2Nnx3ZWJWNnwwfDIxMC4xNDYdUngMTgxLjQ5",
+      "src": "./assets/songs/cuuvankipkhong.mp3",
       "img": "https://photo-resize-zmp3.zmdcdn.me/w600_r1x1_webp/cover/3/9/0/9/390960be891eb4dc604b8856f25c077c.jpg"
     },
     {
       "id": 10,
       "name": "Trăm năm không quên",
       "singer": "Quang Hà",
-      "src": "https://vnno-vn-6-tf-mp3-320s1-zmp3.zmdcdn.me/e826431bf45f1d01444e/6874272369009205282?authen=exp=1677768732~acl=/e826431bf45f1d01444e/*~hmac=f33ce90e173d444270278952554d6389&fs=MTY3NzU5NTkzMjI1NXx3ZWJWNnwwfDE0LjI0My4xNi4xMQ",
+      "src": "./assets/songs/tramnamkhongquen.mp3",
       "img": "https://photo-resize-zmp3.zmdcdn.me/w600_r1x1_webp/cover/a/c/a/e/acae1d03a7ca6eebba739b05402343db.jpg"
     }
   ]

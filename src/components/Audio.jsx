@@ -1,16 +1,9 @@
-import React, { Component } from 'react'
+import { forwardRef } from 'react';
 
-export default class Control extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      duration: 0,
-    }
-  }
-
-  render() {
-    return (
-      <audio></audio>
-    )
-  }
-}
+const Audio = (props, ref) => {
+  const { currentSong, isPlaying, isMute, isRepeat, volume, duration } = props.data;
+  return <audio ref={ref} src={currentSong.src} onCanPlay={alert("can play")} type='audio/mpeg'>
+    {/* <source src={currentSong.src} type="audio/mpeg" /> */}
+  </audio>
+};
+export default forwardRef(Audio);

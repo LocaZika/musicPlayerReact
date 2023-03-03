@@ -6,6 +6,7 @@
   gap: 2rem;
   height: auto;
   align-self: center;
+  padding: 2rem 0;
   &__thumb{
     background-color: #fff;
     background-image: radial-gradient(transparent 0 5%, #8e44ad 5% 20%, #000 20%);
@@ -69,7 +70,48 @@
       }
     }
     &__buttons{
-
+      @include flex(space-around, center);
+      >button, >div{
+        background-color: rgba($color:#fff, $alpha: 0.5);
+        border: none;
+        box-shadow: 0 0 1rem 0 rgba($color: #000000, $alpha: 0.5);
+        font-size: 1.6rem;
+      }
+      >button{
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        svg{
+          vertical-align: middle;
+        }
+      }
+      &__volume{
+        @extend %pos-rel;
+        border-radius: 10rem;
+        height: 5rem;
+        width: 15rem;
+        padding: 1rem;
+        @include flex(space-between, center);
+        &__range{
+          >input{
+            width: 10rem;
+            vertical-align: middle
+          }
+        }
+        &--status{
+          @extend %pos-rel;
+          @include flex(flex-start, center);
+          height: 2rem;
+          >button{
+            @extend %pos-abs;
+            border: none;
+            background-color: transparent;
+          }
+          .volume-hidden{
+            @extend %d-none;
+          }
+        }
+      }
     }
   }
 }

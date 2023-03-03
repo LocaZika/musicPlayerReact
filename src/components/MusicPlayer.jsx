@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { get } from '../api/RESTfulApi';
 import Player from './Player';
 import PlayList from './PlayList';
-import Audio from './Audio';
 import Tester from './Tester';
 
 export class MusicPlayer extends Component {
@@ -26,8 +25,15 @@ export class MusicPlayer extends Component {
   componentDidMount() {
     this.getSongs();
   }
-  handleClickSong = () => {
-    
+  handleClickSong = (song) => {
+    this.setState({currentSong: song})
+  }
+  handleClickPlay = () => {
+    const { isPlaying } = this.state;
+    this.setState({
+      isPlaying: !isPlaying,
+    });
+    return isPlaying;
   }
   render() {
     const {
@@ -41,15 +47,19 @@ export class MusicPlayer extends Component {
     } = this.state;
     return (
       <div className='music-player'>
-        <Player currentSong={currentSong} duration={duration} />
-        <PlayList songs={songs} onClickSong={this.handleClickSong} />
-        <Audio
-          currentSong={currentSong}
-          isPlaying={isPlaying}
-          isMute={isMute}
-          isRepeat={isRepeat}
-          volume={volume}
+        <Player
+          data={
+            {
+              currentSong,
+              isPlaying,
+              isMute,
+              isRepeat,
+              volume,
+              duration
+            }
+          }
         />
+        <PlayList songs={songs} onClickSong={this.handleClickSong} />
       </div>
     )
   }
